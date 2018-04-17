@@ -1,0 +1,10 @@
+GCMC simulation at Lennard-Jones critical point - simulation should be identical to Fig. 1 in N. B. Wilding, PRE 52 602 (1995)   
+finish
+seeds 12 34 56 78               # Seed RNG seeds explicitly to the default                          
+temperature     18000   # 13754.88       # Corresponds to kB*T of 1.1853 eV
+steps           120000           # Number of moves to perform in simulation (8000000 takes an hour) 
+yamldata 100
+move gcinsertmol 1 100 0.7      # Perform insertion/removal moves for LJ, with a min. distance of 0.7 from atoms for inserts 
+lj  0.04        #0.06177                     # Use an activity of 0.06177
+start 
+
