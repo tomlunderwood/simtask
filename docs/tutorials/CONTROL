@@ -1,0 +1,16 @@
+Super-critical LJ GCMC simulation 
+finish
+
+seeds 12 34 56 78               # Seed RNG seeds explicitly to the default                          
+
+temperature     18000           # Corresponds to kB*T of 1.55112 eV => T*=k_B*T/epsilon = 1.55112
+
+steps           120000    
+
+yamldata 100
+
+move gcinsertmol 1 100 0.7      # Perform insertion/removal moves for LJ, with a min. distance of 0.7 from atoms for inserts 
+lj  0.04                        # Use an activity of exp(beta*mu)=0.04
+
+start 
+
