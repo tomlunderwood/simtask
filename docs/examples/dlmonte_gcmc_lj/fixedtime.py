@@ -18,7 +18,7 @@ import simtask.task as task
 
 handler = logging.StreamHandler()
 
-# Replacing 'logging.INFO' with 'logging.DEBUGGING' below results in more information being output by the
+# Replacing 'logging.INFO' with 'logging.DEBUG' below results in more information being output by the
 # logger. Using 'logging.WARNING' results in less information being output: only 'warnings'
 
 measurement.logger.setLevel(logging.INFO)
