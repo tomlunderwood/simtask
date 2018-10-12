@@ -1,0 +1,9 @@
+# simtask 
+A Python package to facilitate automation of common simulation tasks, such as calculating
+the density for various temperatures.
+
+A Jupyter notebook tutorial can be found in 'docs/tutorials'. It is called 'dlmonte_gcmc.ipynb'.
+A few examples can be found in 'docs/examples'; the comments in the Python files explain
+what is going on.
+
+Note that this package is still at the alpha stage, so please be kind!
